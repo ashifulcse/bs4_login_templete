@@ -1,0 +1,87 @@
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Login Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap">
+
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<style>
+  .bg-gray {background: #ddd;}
+  .divider svg:not([class*='bg']) path {fill: #ddd;}
+  .form-control {color: #495057;background-color: #fff;border: 1px solid #607D8B;}
+  .custom-control-label:before {border: 1px solid #607D8B;}
+  .text-muted {color: #6d6f71 !important;}
+
+</style>
+
+</head>
+
+  <body>
+
+    <section class="row no-gutters min-vh-100 p-0">
+      <div class="col-lg-4 bg-primary-3 d-flex justify-content-end">
+        <img src="cover.jpg" alt="Image" class="bg-image">
+        <div class="divider divider-vertical d-none d-lg-block">
+          <svg width="100%" height="100%" version="1.1" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none">
+            <path d="M0,0 L100,0 L100,100 L0,100 C66.6666667,83.3333333 100,66.6666667 100,50 C100,33.3333333 66.6666667,16.6666667 0,0 Z" fill="#ffffff"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="col px-5 position-relative d-flex align-items-center bg-gray">
+        <div class="row justify-content-center w-100">
+          <div class="col-md-8 col-lg-7 col-xl-6">
+            <div class="text-center mb-4">
+              <h1 class="mb-1">Create Account</h1>
+              <span>No credit card required</span>
+            </div>
+
+            <form>
+              <div class="form-group">
+                <input type="email" name="signup-email" placeholder="Email Address" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" name="signup-password" placeholder="Password" class="form-control">
+                <small class="text-muted">Must be at least 8 characters</small>
+              </div>
+              <div class="form-group">
+                <input type="password" name="signup-password-confirm" placeholder="Confirm password" class="form-control">
+              </div>
+              <div class="form-group">
+                <button class="btn-block btn btn-primary" type="submit">Sign in</button>
+              </div>
+
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="signup-agree">
+                <label class="custom-control-label text-small text-muted" for="signup-agree">
+                  I agree to the <a href="#">Terms &amp; Conditions</a>
+                </label>
+              </div>
+              <hr>
+
+              <div class="text-center text-small text-muted">
+                <span>Already have an account yet? <a href="#">Sign In</a>
+                </span>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
